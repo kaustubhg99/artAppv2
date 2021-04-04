@@ -10,13 +10,15 @@ import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { BlogSectionComponent } from './blog-section/blog-section.component';
+import { GallerySectionComponent } from './gallery-section/gallery-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    BlogSectionComponent
+    BlogSectionComponent,
+    GallerySectionComponent
   ],
   imports: [
     BrowserModule,
